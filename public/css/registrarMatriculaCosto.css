@@ -1,0 +1,111 @@
+#tblBecas{
+    margin-top: 15%;
+    margin-left: 10%; 
+    margin-right: 10%; 
+}
+
+#thTituloUno{
+    padding: 1%;
+    text-align: center;
+}
+
+tr, td{
+    padding: 1%;
+    text-align: center;
+}
+
+tbody{
+    border: 1px solid;
+    margin-top: 50%;
+}
+
+h1 {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 40%;
+    font-size: 25px;
+    color: #2c3e50
+}
+
+#divPrecioMatricula{
+    margin: 0% auto;
+    margin-left: 15%;    
+    margin-top: 5%;
+}
+
+#divPrecioMensualidad{
+    margin: 0% auto;
+    margin-left: 15%; 
+    margin-top: 3%;   
+}
+
+#labelPrecioMatricula{
+    margin: 0% auto;
+    margin-right: 10px;
+    color: #344955;
+    font-size: 20px;
+}
+
+#inputPrecioMatricula{
+    margin: 0% auto;
+    width: 500px;
+    height: 30px;
+    margin-left: 80px;
+    outline-color: #f9aa33;
+    font-size: 20px;
+}
+
+#labelPrecioMensualidad{
+    margin: 0% auto;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #344955;
+
+}
+
+#inputPrecioMensualidad{
+    margin: 0% auto;
+    width: 500px;
+    height: 30px;
+    margin-left: 48px;
+    outline-color: #f9aa33;
+    font-size: 20px;
+}
+
+.errorInput{
+    border: 2px solid #ED4C67;
+}
+
+fieldset{
+    width: 290px;
+    height: 40px;
+    margin-top: 3%;
+    margin-left: 38.5%;
+}
+
+#btnRegistrarMatricula{
+    margin: 0% auto;
+    margin-left: 41%;
+    background: #f9aa33;
+    width: 210px;
+    height: 40px;
+    border: none;
+    color: white;
+    margin-top: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.aRegistrar {
+    display: block;
+    margin-left: 5%;
+    margin-top: 45px;
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.aRegistrar:hover {
+    color: #f9aa33;
+    transition: all 300ms;
+}

@@ -1,0 +1,112 @@
+#tblEtiquetasSeleccionadas {
+    border-collapse: separate;
+    border-spacing: 5px 5px;
+    width: 320px;
+    margin: 20px auto;
+    position: relative;
+    bottom: 200px;
+    left: -20px;
+}
+
+/* #tblEtiquetasSeleccionadas a{
+    text-decoration: none;
+    color: #2c3e50;
+
+} */
+
+/* #tblEtiquetasSeleccionadas thead tr th {
+    background: #f9aa33;
+    color: white;
+} */
+
+#tblEtiquetasSeleccionadas tbody tr td {
+    color: #2c3e50;
+    text-align: center;
+    padding: 5px 6px;
+    border: none;
+    width: 150px;
+    max-width: 150px;
+    min-width: 100px;
+    max-height: 20px;
+    font-size: 15px;
+    background-color: #F1F2FC;
+    border-radius: 4px;
+}
+
+/* #tblEtiquetasSeleccionadas tbody tr td:hover {
+    color: #f9aa33;
+} */
+
+#tblEtiquetasSeleccionadas tbody, #tblEtiquetasSeleccionadas tbody tr {
+    border: none;
+}
+
+#divEtiquetas {
+    margin: 20px auto;
+    position: relative;
+    top: -70px;
+    width: 0px;
+    height: 0px;
+}
+
+#sltEtiquetasDiv {
+    /* margin-right: 100px; */
+    height: 40px;
+    overflow: hidden;
+    width: 240px;
+    position: relative;
+    margin-bottom: 50px;
+    /* margin-left: 50px; */
+    left: 485px;
+    bottom: 98px;
+}
+
+/* #sltEtiquetasDiv:after {
+    content: "\025be";
+    display: table-cell;
+    padding-top: 7px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    background-color: #2c3e50;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    pointer-events: none;
+} */
+
+#sltEtiquetas:focus {
+    outline: none;
+}
+
+#sltEtiquetas {
+    border: none;
+    width: 250px;
+    height: 35px;
+    color: white;
+    font-size: 16px;
+}
+
+#lblEtiquetas {
+    color: #2c3e50;
+}
+
+/* #tblUsuarios a:hover{
+    text-decoration: none;
+    color: #f9aa33
+} */
+
+#tblEtiquetasSeleccionadas tbody tr td .awesome_images i {
+    display: inline-block;
+    cursor: pointer;
+    color: #2c3e50;
+}
+
+#tblEtiquetasSeleccionadas tbody tr td .awesome_images {
+    float: right;
+}
+
+#tblEtiquetasSeleccionadas tbody tr td .awesome_images i:hover {
+    color: #f9aa33;
+}

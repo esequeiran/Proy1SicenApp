@@ -1,0 +1,123 @@
+.errorUser {
+    margin-top: 30%;
+    margin-left: 5%;
+    font-size: 20px;
+    color: #f9aa33;
+}
+
+#frmAgendar{
+    display: inline-block;
+    margin: 50px;
+    width: 60%;
+    max-width: 60%;
+    background: #2c3e50;
+    border-radius: 10px;
+    height: 450px;
+}
+
+#lblERRFecha, #lblERRHora{
+    float: right;
+    margin-right: 50px;
+    margin-top: 55px;
+    color: white;
+}
+
+#lblERRHora{
+    margin-top: 30px;
+}
+
+#cajaFechaHora{
+    display: inline-block;
+    /*background: #2c3e50;*/
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.mensajeError{
+    content: 'Inválido';
+    font-size: 18px;
+    padding: 4px 25px 4px 10px;
+    margin-left: 5px;
+    border: 1px solid #D8000C;
+    /*margin: 40px;*/
+    position:relative;
+    top:4px;
+    width: 70px;
+}
+
+.mensajeError:before{
+    content: 'Inválida';
+}
+
+#tituloAgendar {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+    color: #2c3e50;
+    padding-left: 200px;
+    padding-right: 200px;
+    /*margin-bottom: 50px;*/
+}
+
+
+#cajaFecha label, #cajaHora label{
+    margin-right: 15px;
+    font-size: 25px;
+    color: #f9aa33;
+}
+
+#cajaFecha input[type=date]{
+    height: 150px;
+    font-size: 45px;
+    color: #ffffff;
+    background: #2c3e50;
+}
+
+#cajaHora input[type=time]{
+    font-size: 45px;
+    text-align: left;
+    letter-spacing: 3px;
+    height: 100px;
+    color: #ffffff;
+    background: #2c3e50;
+}
+
+#cajaHora input[type=time],#cajaFecha input[type=date] {
+    border: 0px;
+    outline: none;
+    margin-bottom: 50px;
+    display: inline-block;
+    width: 45%;
+}
+
+form#frmAgendar{
+
+    text-align: center;
+    font-size: 20px;
+    color: #344955;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 140px;
+}
+
+button#btnAgendar{
+    display: block;
+    margin: 45px auto;
+    padding: 14px 50px;
+    background: #f9aa33;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 50px;
+}
+
+button#btnAgendar:hover{
+    background: #ffbe76;
+    cursor: pointer;
+    transition: all 300ms ease;
+}

@@ -1,0 +1,505 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+*::selection {
+    background: #F9AA33;
+    color: white;
+}
+
+*::-moz-selection {
+    background: #F9AA33;
+    color: white;
+}
+
+#home {
+    background-image: url(../img/background.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+#home .nav {
+    width: 100%;
+    height: 72px;
+}
+
+.sicenLogo {
+    background-image: url(../img/SICENblanco.png);
+    width: 135px;
+    height: 37px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 18px;
+    background-size: contain;
+    background-repeat-y: no-repeat;
+    position: absolute;
+}
+
+#home .nav a {
+    float: right;
+    padding: 28px 35px;
+    text-decoration: none;
+    color: white;
+}
+
+#home .nav a:hover {
+    color: #f9aa33;
+    transition: all 300ms ease;
+}
+
+#home .left {
+    display: inline-block;
+    width: 49%;
+    height: 80vh;
+    float: left;
+}
+
+#home .right {
+    display: inline-block;
+    width: 49.5%;
+    height: 80vh;
+}
+
+#home .text {
+    width: 35rem;
+    height: 30rem;
+    float: left;
+    margin-top: 7%;
+    border-left: white solid 1px;
+}
+
+#home .text h1 {
+    font-family: 'Raleway:400', sans-serif;
+    font-size: 3rem;
+    color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#home .text p {
+    font-size: 35px;
+    color: white;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+#home .text h2 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#home .text .btnDiv {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#home .text a {
+    background-color: #f9aa33;
+    color: white;
+    text-decoration: none;
+    width: 80px;
+    height: 15px;
+    padding: 20px 40px;
+    border-radius: 7px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.down {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    transition: all 300ms ease;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+#tops {
+    background: white;
+    width: 100%;
+    height: 160vh;
+    background-size: cover;
+}
+
+.line {
+    width: 75%;
+    border-bottom: 1px solid #232f34;
+    margin: 0 auto;
+
+}
+
+.centroEducativo {
+    width: 720px;
+    height: 9%;
+    margin-bottom: 20px;
+
+}
+
+#tops h1 {
+    font-size: 40px;
+    color: #344955;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#h2CentrosEducativos {
+    font-size: 40px;
+    color: #f9aa33;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.padre {
+    margin: 0 auto;
+}
+
+.left {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.right {
+    display: block;
+    float: right;
+    width: 50%;
+}
+
+.centroEducativo {
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+#spanPosition {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #f9aa33;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    margin-left: 50px;
+}
+
+#spanFoto1 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/IdeA.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+    margin-left: 13px;
+}
+
+#spanFoto2 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/sunny.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+    margin-left: 13px;
+}
+
+#spanFoto3 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/quepos.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+    margin-left: 13px;
+}
+
+#spanFoto4 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/ctplimon.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+    margin-left: 13px;
+}
+
+#spanFoto5 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/reden.png);
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+    margin-left: 13px;
+}
+
+#spanFoto6 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/luisa.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+    margin-left: 13px;
+}
+
+#spanFoto7 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/upala.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+    margin-left: 13px;
+}
+
+#spanFoto8 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/urizarc.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+    margin-left: 13px;
+}
+
+#spanFoto9 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/curubande.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+    margin-left: 13px;
+}
+
+#spanFoto10 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/coto.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+    margin-left: 13px;
+}
+
+#spanNombre {
+    float: left;
+    color: #232f34;
+    padding: 26px 0px;
+    text-align: center;
+    margin-left: 13px;
+}
+
+#spanTelefono {
+    float: left;
+    color: #232f34;
+    padding: 26px 0px;
+    text-align: center;
+    margin-left: 13px;
+}
+
+#spanTipoInst {
+    float: left;
+    color: #232f34;
+    padding: 26px 0px;
+    text-align: center;
+    margin-left: 13px;
+}
+
+#spanProvincia {
+    float: left;
+    color: #232f34;
+    padding: 26px 0px;
+    text-align: center;
+    margin-left: 13px;
+}
+
+.listDown {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    color: #f9aa33;
+    font-size: 45px;
+    transition: all 300ms ease;
+    padding-top: 2%;
+}
+
+#list {
+    background: white;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative; 
+}
+
+#list h1 {
+    font-size: 40px;
+    color: #344955;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#h2Lista {
+    font-size: 40px;
+    color: #f9aa33;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+#tblUtiles {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+th {
+    background: #f9aa33;
+    color: white;
+}
+
+td {
+    color: #2c3e50;
+    vertical-align: middle;
+}
+
+td:hover {
+    color: white;
+    background: #4a6572;
+}
+
+td, th {
+    text-align: center;
+    padding: 12px 1px;
+    border: #2c3e50 solid 1px;
+    vertical-align: middle;
+}
+
+label {
+    color: #2c3e50;
+    margin-right: 18px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #344955;
+    background-image: none;
+}
+
+.select {
+    position: relative;
+    display: inline-block;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: #2c3e50;
+    /* overflow: hidden; */
+    border-radius: .25em;
+}
+
+select {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 0 0 .5em;
+    color: #fff;
+    cursor: pointer;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 1em;
+    background: #344955;
+    pointer-events: none;
+}
+
+.select:hover::after {
+    color: #f9aa33;
+}
+
+.select::after {
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    color: white;
+}
+
+.filtroIzquierda label {
+
+}
+
+.filtroIzquierda{
+    float: left;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: #232F34;
+}
+
+footer .amejix {
+    background-image: url(../img/logoAmejixBlanco.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat-y: no-repeat;
+    background-repeat-x: no-repeat;
+    width: 8%;
+    height: 35.5%;
+    margin:  0 auto;
+    padding: 38px 0px;
+}
+
+.filtroDerecha{
+    float: right;
+    margin-top: 40px;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+
+.txtFiltro{
+    display: inline-block;
+    width: 250px;
+    height: 30px;
+    outline: none;
+}
+
+
+#txtFiltro{
+    display: inline-block;
+    width: 250px;
+    height: 30px;
+    outline: none;
+}

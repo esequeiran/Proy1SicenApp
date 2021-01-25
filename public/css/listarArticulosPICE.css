@@ -1,0 +1,145 @@
+h1{
+    display: block;
+   margin-top: 30px;
+   text-align: center;
+   font-size: 25px;
+   color: #2c3e50;
+    /* display: inline-block;
+    margin-top: 40px;
+    margin-left: 5%;
+    font-size: 25px;
+    color: #2c3e50; */
+}
+
+.filtroIzquierda{
+    float: left;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
+
+#favoritar{
+    cursor: pointer;
+}
+
+
+a{
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+
+a:hover{    
+    text-decoration: none;
+    color: #f9aa33
+    
+}
+
+.filtroDerechaArticulos{
+    float: right;
+    margin-top: 40px;
+    margin-right: 30%;
+    margin-bottom: 50px;
+}
+.filtroDerechaArticulos label{
+    display: inline-block;
+    width: 60px;
+    margin-left: 53px;
+    font-size: 20px;
+    margin-right: 42px;
+}
+
+.txtFiltro{
+    display: inline-block;
+    width: 250px;
+    height: 30px;
+    outline: none;
+}
+
+
+#txtFiltroArticulos{
+     display: inline-block;
+    width: 500px;
+    height: 30px;
+    outline: none;
+    font-size: 20px;
+}
+
+
+.filtro label{
+    display: inline-block;
+    width: 60px;
+    margin-left: 53px;
+}
+
+
+
+.botonEliminarArticulos{
+    border: none;
+    background-color: transparent;
+    color: #2c3e50;
+    font-size: 20px;
+
+}
+
+.botonEliminarArticulos:hover{
+    border:none;   
+    background: #4a6572;
+    text-decoration: none;
+    color: #f9aa33;
+
+}
+
+
+
+
+#tblArticulos {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 300px;
+    
+    /* border-collapse: collapse;
+    margin-left: 32px;
+    /* width: 80%; */
+    /* margin-bottom: 120px;
+    width: 90%;
+    margin: 0 auto; */ 
+    
+}
+
+
+th{
+    background: #f9aa33;
+    color: white;
+    text-align: center;
+   padding: 12px 1px;
+   border: #2c3e50 solid 1px;
+   vertical-align: middle;  
+   font-size: 20px; 
+   
+}
+
+
+#tblArticulos tbody tr td{
+    color: #2c3e50;
+    vertical-align: middle;
+    text-align: center;
+    padding: 12px 1px;
+    border: #2c3e50 solid 1px;
+    vertical-align: middle;
+    font-size: 20px;
+
+}
+#tblArticulos tbody tr td:hover{
+    color: white;
+    background: #4a6572;
+}
+
+
+
+
+

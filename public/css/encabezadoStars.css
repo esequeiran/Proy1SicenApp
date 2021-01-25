@@ -1,0 +1,15 @@
+.estrellas{
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    color: #f9aa33;
+    font-style: bold;
+    vertical-align: middle;
+}
+
+
+.stars{
+    display: inline-block;
+
+    float: left;
+}

@@ -1,0 +1,124 @@
+.btnEliminar {
+    width: 32px;
+    border: none;
+    background-color: transparent;
+    color: #2c3e50;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.h1a{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 46%;
+    font-size: 25px;
+    color: #2c3e50
+}
+
+#divBuscar{
+    float: right;
+    margin-top: 40px;
+    margin-right: 5%;
+    margin-bottom: 40px;
+}
+
+#labelBuscar{
+    margin-right: 7px;
+}
+
+#inputBuscar{
+    font-family: 'Raleway', sans-serif;
+    width: 225px;
+    height: 20px;
+    outline-color: #f9aa33;
+    font-size: 25px;
+}
+
+tr{
+    border: 1px #344955 solid;
+}
+
+#tblMatriculas{
+    margin-top: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    margin-bottom: 125px;
+}
+
+#thTituloNombreMatricula{
+    background-color: #f9aa33;
+    padding: 2%;
+    text-align: center;
+    color: white;
+    font-size: 150%;
+}
+
+#thPrecioMatricula{
+    background: #f9aa33;
+    padding: 1%;
+    text-align: center;
+    color: white;   
+    font-size: 150%;
+}
+
+#thfieldsetPrecio{
+    background: #f9aa33;
+    padding: 1%;
+    text-align: center;
+    color: white;   
+    font-size: 150%;
+}
+
+.tha {
+    background: #f9aa33;
+    color: white;
+    width: 80px;
+    font-size: 20px;
+}
+
+.tda {
+    color: #2c3e50;
+    vertical-align: middle;
+}
+
+.td:hover {
+    color: white;
+    background: #4a6572;
+}
+
+.tda, .tha {
+    text-align: center;
+    padding: 12px 1px;
+    border: #2c3e50 solid 1px;
+    vertical-align: middle;
+}
+
+tbody{
+    border: 1px #344955 solid;
+    font-size: 130%;
+    line-height: 180%;
+    text-align: center;
+}
+
+fieldset{
+    width: 290px;
+    height: 40px;
+    margin-top: 2%;
+    margin-left: 45%;
+}
+
+.aRegistrar {
+    display: block;
+    margin-left: 5%;
+    margin-top: 45px;
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.aRegistrar:hover {
+    color: #f9aa33;
+    transition: all 300ms;
+}

@@ -1,0 +1,99 @@
+
+h1{
+    display: block;
+   margin-top: 30px;
+   text-align: center;
+   font-size: 25px;
+   color: #2c3e50;
+}
+
+.filtro{
+    float: right;
+    margin-top: 40px;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+.filtro label{
+    display: inline-block;
+    width: 60px;
+    margin-left: 53px;
+    font-size: 20px;
+    margin-right: 42px;
+}
+
+#txtFiltro{
+    display: inline-block;
+    width: 500px;
+    height: 30px;
+    outline: none;
+    font-size: 20px;
+}
+
+form div select{
+    display: inline-block;
+    width: 254px;
+    height: 35px;
+}
+form div{
+    margin-right: 90px;
+    margin-bottom: 50px;
+    
+ }
+ form div label{
+    display: inline-block;
+    width: 190px;
+    margin-left: 32px;
+}
+
+#tblCentrosCercanos{    
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 150px;
+
+    
+}
+
+.celdaImagen{
+    height: 120px;
+    width: 110px;
+    object-fit: contain;
+}
+
+
+th{
+    background: #f9aa33;
+    color: white;
+    text-align: center;
+   padding: 12px 1px;
+   border: #2c3e50 solid 1px;
+   vertical-align: middle;  
+   font-size: 20px;
+}
+
+
+#tblCentrosCercanos tbody tr td{
+    color: #2c3e50;
+    vertical-align: middle;
+    text-align: center;
+    padding: 12px 1px;
+    border: #2c3e50 solid 1px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+#tblCentrosCercanos tbody tr td:hover{
+color: white;
+    background: #4a6572;
+}
+
+#tblCentrosCercanos a:hover{
+    text-decoration: none;
+    color: #f9aa33
+}
+
+#tblCentrosCercanos a{
+    text-decoration: none;
+    color: #2c3e50;
+
+}

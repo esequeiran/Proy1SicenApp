@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SICEN - Inicio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topIndex.css">
+    <link rel="stylesheet" href="css/topCEPFindex.css">
+</head>
+
+<body>
+    <main>
+        <div id="home">
+            <div class="nav">
+                <div class="sicenLogo"></div>
+                <a href="inicioSesion.html">Iniciar sesión</a>
+            </div>
+            <div class="left"></div>
+            <div class="right">
+                <div class="text">
+                    <h1>SICEN</h1>
+                    <p>Una aplicación del MEP para ayudar a los padres de familia a encontrar el centro educativo
+                        perfecto
+                        para sus hijos.</p>
+                    <h2>¡Regístrese ahora mismo!</h2>
+                    <div class="btnDiv"><a href="registroUsuariosInicial.html">Registrarse</a></div>
+                </div>
+            </div>
+            <a href="#tops" class="down"><i class="fas fa-chevron-down"></i></a>
+        </div>
+
+        <div id="tops">
+            <h1>TOP 10</h1>
+            <h2 id="h2CentrosEducativos">Centros educativos</h2>
+            <div id="divSelect">
+                <label for="selectTipoTop">Top</label>
+                <select name="" id="selectTipoTop">
+                    <option value="">Seleccione un top 10</option>
+                    <option value="1">Top general de evaluaciones por el MEP</option>
+                    <option value="2">Top de escuelas evaluadas por el MEP</option>
+                    <option value="3">Top de colegios evaluados por el MEP</option>
+                    <option value="4">Top general de evaluaciones por padres de familia</option>
+                    <option value="5">TOP colegios general de evaluaciones por padres de familia</option>
+                    <option value="6">TOP escuelas general de evaluaciones por padres de familia</option>                  
+
+                </select>
+            </div>
+            <section id="seccionRankings">
+                
+            </section>
+            <div id="topGeneral">
+           
+            </div>
+
+            <div id="topColegios">
+
+            </div>
+
+            <div id="topEscuelas">
+
+            </div>
+            <a href="#list" class="listDown"><i class="fas fa-chevron-down"></i></a>
+        </div>
+
+
+        <div id="list">
+            <div class="line"></div>
+            <h1>Lista de útiles</h1>
+            <h2 id="h2Lista">Oficial del MEP</h2>
+
+            <div class="filtroDerecha">
+                <label for="txtFiltro">Buscar</label>
+                <input type="text" id="txtFiltro" placeholder="Escriba el nombre del artículo">
+            </div>
+
+            <div class="filtroIzquierda">
+                <label for="selectNivel">Nivel escolar</label>
+                <div class="select">
+                    <select name="slct" id="selectNivel">
+                        <optgroup label="Escuela"></optgroup>
+                        <option value="">Seleccione nivel</option>
+                        <option value="1">Primero</option>
+                        <option value="2">Segundo</option>
+                        <option value="3">Tercero</option>
+                        <option value="4">Cuarto</option>
+                        <option value="5">Quinto</option>
+                        <option value="6">Sexto</option>
+                        <optgroup label="Colegio"></optgroup>
+                        <option value="7">Séptimo</option>
+                        <option value="8">Octavo</option>
+                        <option value="9">Noveno</option>
+                        <option value="10">Décimo</option>
+                        <option value="11">Undécimo</option>
+                        <option value="12">Duodécimo</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <table id="tblUtiles">
+                <thead>
+                    <tr>
+                        <th>Lista</th>
+                        <th>Nombre del útil</th>
+                        <th>Descripción</th>
+                        <th>Cantidad</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+
+            </table>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="amejix"></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script src="js/controlador.general.js"></script>
+    <script src="js/servicio.listarUtilesIndex.js"></script>
+    <script src="js/controlador.listarUtilesIndex.js"></script>
+    <script src="js/servicio.starsPF.js"></script>
+    <script src="js/servicio.comentarios.js"></script>
+    <script src="js/servicio.evaluarCEPorMEP.js"></script>
+    
+    <script src="js/controlador.listarTopCEIndex.js"></script>
+   
+    
+</body>
+
+</html>

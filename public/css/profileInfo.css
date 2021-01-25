@@ -1,0 +1,188 @@
+#padreFamilia, #centroEducativo, #superAdministrador {
+    display: none;
+}
+
+#vistaCEporSA, #vistaCEporPF {
+    display: none;
+}
+
+#aVerCita, #menuCitasEnCE {
+    display: none;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#map {
+    height: 400px;
+    width: 500px;
+}
+
+/****************/
+
+main {
+    color: #344955;
+}
+
+.errorInput {
+    border: 2px solid #ED4C67;
+}
+
+.welcome {
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+    color: #2c3e50;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 22px;
+    text-align: center;
+}
+
+/* div {
+    margin-bottom: 20px;
+} */
+
+div label {
+    display: inline-block;
+    width: 190px;
+    margin-left: 10px;
+}
+
+section {
+    margin-top: 75px;
+}
+
+section.userType {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+input {
+    display: inline-block;
+    width: 200px;
+    height: 18px;
+    outline: none;
+}
+
+textarea {
+    height: 150px;
+    width: 404px;
+    resize: none;
+}
+
+form select {
+    display: inline-block;
+    width: 200px;
+    height: 25px;
+}
+
+form button {
+    display: block;
+    margin: 0 auto;
+    padding: 14px 50px;
+    background-color: #f9aa33;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+form button:hover {
+    background-color: #f9bf33;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+input[type="radio"] {
+    width: 25px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+
+div ul {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+#map {
+    height: 400px;
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.column {
+    display: block;
+    margin: 0 auto;
+}
+
+.columns {
+    display: flow-root;
+}
+
+.leftColumn {
+    width: 45%;
+    float: left;
+    margin-left: 50px;
+    display: block;
+}
+
+.rightColumn {
+    width: 45%;
+    float: right;
+    display: block;
+}
+
+.estrellas {
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    color: #f9aa33;
+    font-style: bold;
+    vertical-align: middle;
+}
+
+#divGeneralEstrellas {
+    display: inline-block;
+    width: 35%;
+    text-align: left;
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+#divEncabezadoH2Estrellas {
+    display: inline-block;
+    float: left;
+}
+
+#encabezadoH2Estrellas {
+    display: inline-block;
+    padding: 25px;
+}
+
+#divEstrellas {
+    display: inline-block;
+    padding: 24px 0px;
+}

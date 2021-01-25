@@ -1,0 +1,164 @@
+.errorInput{
+    border: 2px solid #ED4C67;
+}
+
+h1{
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: #2c3e50;
+    margin-bottom: 60px;    
+}
+
+form{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    
+}
+
+.divFrm{
+    display: inline-block;
+   /* margin-right: 90px; */
+   margin-bottom: 50px;
+   
+}
+
+.lblInput{
+    color: #2c3e50;
+
+   
+    color: #2c3e50;
+ 
+    display: inline-block;
+    width: 280px;
+    font-size: 20px;
+    
+}
+.lblTextArea{
+   color: #2c3e50;
+   text-align: left;
+   float: left;
+   /* margin-right: 126px; */
+   width: 280px;
+   /* width: 167px; */
+   font-size: 20px;
+   
+
+}
+
+form div input{
+    font-family: 'Raleway', sans-serif;
+    width: 255px;
+    height: 22px;
+    outline-color: #F9AA33;
+
+/* 
+    display: inline-block;
+    width: 250px;
+    height: 30px;
+    
+    outline: none; */
+}
+#txtDescripcion div{
+    display: inline;
+}
+
+
+
+textarea{
+    font-family: 'Raleway', sans-serif;
+    resize: none;
+    width: 500px;
+    height: 200px;
+    outline-color: #F9AA33;
+    font-size: 20px;
+ 
+ 
+}
+form div select{
+    -webkit-appearance: none;
+   -moz-appearance: none;
+   -ms-appearance: none;
+   appearance: none;
+   outline: 0;
+   box-shadow: none;
+   border: 0 !important;
+   background: #344955;
+   background-image: none;
+   position: relative;
+   display: inline-block;
+   width: 20em;
+   height: 3em;
+   line-height: 3;
+   background: #2c3e50;
+   overflow: hidden;
+   border-radius: .25em;
+   width: 500px;
+   height: 100%;
+   margin: 0;
+   padding: 0 0 0 .5em;
+   color: #fff;
+   cursor: pointer;
+   font-size: 20px;
+
+
+    /* display: inline-block;
+    width: 254px;
+    height: 35px; */
+}
+
+select::-ms-expand {
+    display: none;
+ }
+ 
+select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 1em;
+    background: #344955;
+    pointer-events: none;
+ }
+ 
+select:hover::after {
+    color: #f9aa33;
+ }
+ 
+select::after {
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    color: white;
+ }
+
+.btnDiv{
+    display: block;
+    margin: 0 auto;
+}
+
+.btnRegistrar{
+   display: block;
+   padding: 14px 0px;
+   margin: 0 auto;
+   background: #f9aa33;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   outline: none;
+   margin-bottom: 150px;
+   margin-top: 45px;
+   min-width: 155px;
+   font-size: 18px;
+
+}
+
+.btnRegistrar:hover{
+    background: #f9bf33;
+   cursor: pointer;
+   transition: all 300ms ease;
+
+}

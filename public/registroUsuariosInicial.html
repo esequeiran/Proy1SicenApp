@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/perfil.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/tabs.css">
+    <link rel="stylesheet" href="css/registroUser.css">
+
+</head>
+
+
+<body>
+
+    <!-- <header>
+        <nav>
+            <a class="aBack" href="userProfileInfo.html">
+        </nav>
+    </header> -->
+
+    <main>
+        <div class="boxRegistro">
+            <div id="subContenido">
+
+                <!-- Seleccion de tipo de usuario-->
+                <div class="signUpBox">
+                    <a href="index.html"><i class="fas fa-arrow-left"></i></a>
+                    <h1 id='titulo'>Registro de usuario</h1>
+                </div>
+                <section class="userType">
+                    <div id="type">
+                        <label for="selectUser" id='labelTipoUsuario'>Tipo de usuario: </label>
+                        <select id="selectUser" size="">
+                            <option value="" selected disabled>Opciones</option>
+                            <option value="padreFamilia">Padre de familia</option>
+                            <option value="centroEducativo">Centro Educativo</option>
+                        </select>
+                    </div>
+                </section>
+                <!-- FIN Seleccion de tipo de usuario-->
+
+
+                <!-- Seleccion de tipo Padre Familia-->
+
+
+                <section class="registroUsuarios" id="registroPadreFamilia">
+
+
+                    <!-- Tab links -->
+                    <div class="tab-container">
+                        <div class="tab">
+                            <button class="tablinks" onclick="openCity(event, 'InformacionPersonal')">Información
+                                personal</button>
+                            <button class="tablinks" onclick="openCity(event, 'Contacto')">Contacto</button>
+                            <button class="tablinks" onclick="openCity(event, 'Ubicacion')">Ubicación</button>
+                            <button class="tablinks" onclick="openCity(event, 'Hijos')">Hijos</button>
+                            <button class="tablinks" onclick="openCity(event, 'Imagen')">Imagen</button>
+                            <button class="tablinks" onclick="openCity(event, 'registroPFTab')">Registro</button>
+                        </div>
+                    </div>
+                    <!-- Tabs content -->
+                    <!-- TAB Informacion Personal -->
+                    <div id="InformacionPersonal" class="tabcontent">
+
+
+                        <div class="centrarInputs">
+                            <div>
+                                <label for="txtNombre">Primer nombre:</label>
+                                <input type="text" maxlength="20" id="txtNombre">
+                            </div>
+                            <div>
+                                <label for="txtSegundoNombre">Segundo nombre:</label>
+                                <input type="text" maxlength="20" id="txtSegundoNombre" title="opcional">
+                            </div>
+                            <div>
+                                <label for="txtApellido">Primer apellido:</label>
+                                <input type="text" maxlength="20" id="txtApellido">
+                            </div>
+                            <div>
+                                <label for="txtSegundoApellido">Segundo apellido:</label>
+                                <input type="text" maxlength="20" id="txtSegundoApellido" title="opcional">
+                            </div>
+                            <div>
+                                <label for="numID">Identificación:</label>
+                                <input type="text" id="numID">
+
+                            </div>
+                            <div>
+                                <label for="txtNacionalidad">Nacionalidad:</label>
+                                <input type="text" maxlength="20" id="txtNacionalidad">
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- TABContacto -->
+                    <div id="Contacto" class="tabcontent">
+
+                        <div class="centrarInputs">
+
+                            <div>
+                                <label for="txtEmail">Correo electrónico:</label>
+                                <input type="email" id="txtEmail" maxlength="60" placeholder="">
+                            </div>
+                            <div>
+                                <label for="txtTelefono">Teléfono:</label>
+                                <input type="tel" maxlength="20" id="txtTelefono">
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- TAB Ubicación -->
+                    <div id="Ubicacion" class="tabcontent">
+
+                        <div class="centrarInputs">
+                            <div>
+                                <label for="selectProvincias">Provincia:</label>
+                                <select id="selectProvincias" size="" class="selectProvincias">
+
+
+                                    <!-- 
+                                            <option value="Alajuela"> Alajuela</option>
+                                            <option value="Cartago">Cartago</option>
+                                            <option value="Guanacaste">Guanacaste</option>
+                                            <option value="Heredia">Heredia</option>
+                                            <option value="Limon">Limón</option>
+                                            <option value="Puntarena">Puntarena</option>
+                                            <option value="SanJose">San José</option> -->
+                                </select>
+                            </div>
+
+
+
+                            <div>
+
+
+                                <label for="selectCantones">Cantón:</label>
+                                <select id="selectCantones" size="" class="selectCantones">
+                                    <option value="" selected disabled>Cantones</option>
+                                </select>
+
+                            </div>
+                            <div>
+                                <label for="selectDistritos">Distrito:</label>
+                                <select id="selectDistritos" size="" class="selectDistritos">
+                                    <option value="" selected disabled>Distritos</option>
+                                </select>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- TAB Hijos -->
+                    <div id="Hijos" class="tabcontent">
+                        <div class="centrarInputs">
+                            <div id="divCantidadHijos">
+                                <label for="cantHijos">Cantidad de hijos: </label>
+                                <select id="cantHijos" size="">
+                                    <option value="" selected disabled>Opciones</option>
+
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+
+                                </select>
+                            </div>
+
+
+                            <!-- Edad por hijo-->
+
+                            <div class="edadHijos">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- TAB IMAGEN -->
+                    <div id="Imagen" class="tabcontent">
+
+
+                        <figure class='imageHolder'>
+                            <img id="imagePreviewPF">
+                        </figure>
+                        <div>
+                            <button class="yellowButton" type="button" id="fotoPF">Subir Foto</button>
+                        </div>
+
+
+                    </div>
+
+                    <!-- Registro PF Tab -->
+                    <div id="registroPFTab" class="tabcontent">
+                        <div class="centrarInputs">
+
+                            <div id="divCaptchaPF">
+                                <h1> Ingreso de Captcha</h1>
+                                <label for="spanCaptchaPF">Captcha:</label>
+                                <span id="spanCaptchaPF"></span>
+                                <input type="tel" maxlength="20" id="textCaptchaPF" title="opcional">
+                                <button class="yellowButton" type="button" id="buttonCheckCaptchaPF">Revisar</button>
+                            </div>
+
+                            <div class="boton registroPadreFamilia">
+                                <button class="yellowButton" type="button"
+                                    id="btnRegistrarPadreFamilia">Registrar</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </section>
+
+                <!-- FIN - Seleccion de tipo Padre Familia-->
+                <!-- Seleccion de tipo Centro Educativo-->
+                <section class="registroUsuarios" id="registroCentroEducativo">
+
+                    <!-- Tab links -->
+                    <div class="tab-container">
+                        <div class="tab">
+                            <button class="tablinks" onclick="openCity(event, 'datosGeneralesTab')">Datos Generales
+                            </button>
+                            <button class="tablinks" onclick="openCity(event, 'contactoCETab')">Contacto</button>
+                            <button class="tablinks" onclick="openCity(event, 'PersonalCETab')">Personal CE</button>
+                            <button class="tablinks" onclick="openCity(event, 'ubicacionCETAB')">Ubicación</button>
+                            <button class="tablinks" onclick="openCity(event, 'educacionCETab')">Educación</button>
+                            <button class="tablinks" onclick="openCity(event, 'otrosDatosCETab')">Otros datos</button>
+                            <button class="tablinks" onclick="openCity(event, 'serviciosAdicionalesCETab')">Servicios
+                                Adicionales</button>
+                            <button class="tablinks" onclick="openCity(event, 'registroCETab')">Registro
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Tab content -->
+                    <!-- TAB Datos Generales  -->
+                    <div id="datosGeneralesTab" class="tabcontent">
+                        <div class="columnas">
+                            <div class="columna_izquierda">
+
+                                <div class="centrarInputs">
+                                    <div>
+                                        <label for="txtInstitución">Nombre institución:</label>
+                                        <input type="text" maxlength="200" id="txtInstitución">
+                                    </div>
+                                    <div>
+                                        <label for="txtCedulaJuridica">Cédula jurídica:</label>
+                                        <input type="text" maxlength="20" id="txtCedulaJuridica" title="opcional">
+                                    </div>
+
+                                    <div>
+                                        <label for="txtComercial">Nombre comercial:</label>
+                                        <input type="text" maxlength="30" id="txtComercial">
+                                    </div>
+                                    <div>
+                                        <label for="txtAnno">Año fundación:</label>
+                                        <input type="number" maxlength="15" id="txtAnno">
+                                    </div>
+                                    <h1>Reseña histórica</h1>
+                                    <div>
+
+                                        <textarea id="txt_historia"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="columna_derecha">
+
+                                <div class='divImagen'>
+                                    <figure class='imageHolder'>
+                                        <img id="imagePreview">
+                                    </figure>
+                                </div>
+                                <div>
+                                    <button type="button" id="butonSubirImagen" class="yellowButton">Subir
+                                        Imagen</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- TAB Contacto CE  -->
+                    <div id="contactoCETab" class="tabcontent">
+                        <div class="centrarInputs">
+                            <div>
+                                <label for="txtTelefonoCE">Teléfono:</label>
+                                <input type="tel" maxlength="20" id="txtTelefonoCE">
+                            </div>
+                            <div>
+                                <label for="txtEmailCE">Correo electrónico:</label>
+                                <input type="email" id="txtEmailCE" maxlength="50" placeholder="">
+                            </div>
+                            <div>
+                                <label for="txtSitioWeb">Sitio web:</label>
+                                <input type="text" id="txtSitioWeb" maxlength="50" placeholder="">
+                            </div>
+                            <div>
+                                <label for="textFacebook"> Facebook:</label>
+                                <input type="text" id="textFacebook" maxlength="50" placeholder="">
+                            </div>
+                            <div>
+                                <label for="textTwitter"> Twitter:</label>
+                                <input type="text" id="textTwitter" maxlength="50" placeholder="">
+                            </div>
+                            <div>
+                                <label for="textInstagram"> Instagram:</label>
+                                <input type="text" id="textInstagram" maxlength="50" placeholder="">
+                            </div>
+                            <div>
+                                <label for="txtFAx">Fax:</label>
+                                <input type="tel" maxlength="20" id="txtFAx">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TAB Personal CE   -->
+                    <div id="PersonalCETab" class="tabcontent">
+                        <div class="centrarInputs">
+                            <div>
+                                <label for="txtnombreCEP">Nombre:</label>
+                                <input type="text" maxlength="20" id="txtnombreCEP" title="opcional">
+                            </div>
+
+                            <div>
+                                <label for="textSegundoNombreCEP">Segundo nombre:</label>
+                                <input type="text" maxlength="20" id="textSegundoNombreCEP" title="opcional">
+                            </div>
+
+                            <div>
+                                <label for="textApellidoCEP">Apellido:</label>
+                                <input type="text" maxlength="20" id="textApellidoCEP" title="opcional">
+                            </div>
+
+                            <div>
+                                <label for="textSegundoApellidoCEP">Segundo apellido:</label>
+                                <input type="text" maxlength="20" id="textSegundoApellidoCEP" title="opcional">
+                            </div>
+
+
+                            <div>
+                                <label for="txtdepartamento">Departamento:</label>
+                                <input type="text" maxlength="20" id="txtdepartamento" title="opcional">
+                            </div>
+                            <div>
+                                <label for="txtTelefonoCEP">Teléfono:</label>
+                                <input type="tel" maxlength="20" id="txtTelefonoCEP" title="opcional">
+                            </div>
+                            <div>
+                                <label for="txtExtension">Extensión:</label>
+                                <input type="tel" maxlength="20" id="txtExtension" title="opcional">
+                            </div>
+                            <div>
+                                <label for="txtNumIDCEP">Identificación:</label>
+                                <input type="text" id="txtNumIDCEP" title="opcional">
+                            </div>
+                            <div>
+                                <label for="txtEmailCEP">Correo electrónico:</label>
+                                <input type="email" id="txtEmailCEP" maxlength="50" placeholder="">
+                            </div>
+
+                            <figure class='imageHolder'>
+                                <img id="imagePreviewCEP">
+                            </figure>
+                            <div>
+                                <button class="yellowButton" type="button" id="fotoCEP">Subir Foto</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- TAB Ubicacion CE   -->
+                    <div id="ubicacionCETAB" class="tabcontent">
+
+                        <div class="columnas">
+                            <div class="columna_izquierda">
+                                <h1>Dirección exacta</h1>
+                                <div>
+                                    <textarea id="textDireccionExacta"></textarea>
+                                </div>
+
+
+                                <div>
+                                    <div class="centrarInputs">
+                                        <div>
+                                            <label for="selectProvinciasCE">Provincia:</label>
+                                            <select id="selectProvinciasCE" size="" class="selectProvincias">
+
+
+                                            </select>
+                                        </div>
+
+
+
+                                        <div>
+                                            <label for="selectCantonesCE">Cantón:</label>
+                                            <select id="selectCantonesCE" size="" class="selectCantones">
+                                                <option value="" selected disabled>Cantones</option>
+                                            </select>
+
+                                        </div>
+                                        <div>
+                                            <label for="selectDistritosCE">Distrito:</label>
+                                            <select id="selectDistritosCE" size="" class="selectDistritos">
+                                                <option value="" selected disabled>Distritos</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="columna_derecha">
+
+                                <h1>Ubicación en mapa</h1>
+
+                                <div id="map"></div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- TAB Tipo Institucion CE   -->
+                    <div id="educacionCETab" class="tabcontent">
+                        <div class="centrarInputs">
+
+                            <fieldset id="fieldsetTipo">
+                                <h1>Tipo de institución - Grados ofrecidos</h1>
+
+                                <ul> <input type="checkbox" value="Escuela" class="checkboxTipo" id="checkBoxEscuela">
+                                    Escuela</ul>
+                                <ul> <input type="checkbox" value="Colegio" class="checkboxTipo" id="checkBoxColegio">
+                                    Colegio</ul>
+
+
+
+                                <!-- Con el siguiente link se puede crear un codigo que ejecute una funcion en el js -->
+                                <!-- <a href="#" onClick="cualquierFuncion(); return false;"> Nombre del link</a> -->
+
+                            </fieldset>
+
+                            <div class="divNivelesEscuela">
+
+                            </div>
+
+                            <div class="divNivelesColegio">
+
+                            </div>
+
+                            <div>
+                                <fieldset id="fieldsetClasificacion">
+                                    <h1>Clasificación</h1>
+
+
+                                    <ul> <input type="radio" id="radioTecnico" name="radioClasificacion"
+                                            value="Tecnico">
+                                        Técnico</ul>
+                                    <ul> <input type="radio" id="radioProfesional" name="radioClasificacion"
+                                            value="Profesional">
+                                        Profesional</ul>
+                                    <ul> <input type="radio" id="radioCientifico" name="radioClasificacion"
+                                            value="Científico">
+                                        Científico</ul>
+                                    <ul> <input type="radio" id="radioPedagogico" name="radioClasificacion"
+                                            value="Pedagógico">
+                                        Pedagógico</ul>
+                                    <ul> <input type="radio" id="radioAcademico" name="radioClasificacion"
+                                            value="Académico">
+                                        Académico</ul>
+
+                                </fieldset>
+
+
+
+
+                                <h1>Idiomas ofrecidos</h1>
+                                <div class="divIdiomasOfrecidos">
+
+                                </div>
+                                <button class="yellowButton" id="agregarIdioma" type="button">Agregar idioma</button>
+
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+
+                    <!-- Otros Datos   -->
+                    <div id="otrosDatosCETab" class="tabcontent">
+                        <div class="centrarInputs">
+                            <fieldset id="fieldsetPrivacidad">
+                                <h1>Institución pública/privada</h1>
+
+                                <ul> <input type="radio" id="radioPrivado" name="rbt_privacidad" value="privado">
+                                    Privado</ul>
+
+
+                                <ul><input type="radio" id="radioPublico" name="rbt_privacidad" value="publico">
+                                    Público</ul>
+
+                            </fieldset>
+
+
+                            <fieldset id="fieldsetGenero">
+                                <h1>Género</h1>
+
+                                <ul><input type="radio" id="radioFemenino" name="rbt_sexo" value="Femenino">Femenino
+                                </ul>
+
+
+                                <ul><input type="radio" id="radioMasculino" name="rbt_sexo" value="Masculino">Masculino
+                                </ul>
+
+
+                                <ul> <input type="radio" id="radioMixto" name="rbt_sexo" value="Mixto">Mixto
+                                </ul>
+
+
+                            </fieldset>
+
+                            <fieldset id="fieldsetReligion">
+                                <h1>Religión</h1>
+
+                                <ul><input type="radio" id="radioSi" name="rbt_religion" value="si">Sí</ul>
+                                <ul><input type="radio" id="radioNo" name="rbt_religion" value="no">No<ul>
+                                    </ul>
+
+                            </fieldset>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Servicios Adiconales TAB  -->
+                    <div id="serviciosAdicionalesCETab" class="tabcontent">
+                        <h1>Servicios adicionales</h1>
+                        <div class="serviciosAdicionales">
+
+                        </div>
+                        <button class="yellowButton" id="agregarServicios" type="button">Agregar servicio</button>
+
+                        <h1>Agregar documentos</h1>
+                        <div>
+                            <figure class='imageHolder'>
+                                <img id="documentPreview">
+                            </figure>
+                            <button class="yellowButton" id="buttonAgregarDocumento" type="button">Agregar PDF</button>
+                        </div>
+
+
+
+
+                    </div>
+
+                    <!--  Registro CE TAB  -->
+                    <div id="registroCETab" class="tabcontent">
+                        <div class="centrarInputs">
+                            <div id="divCaptchaCE">
+                                <h1> Ingreso de captcha</h1>
+                                <label for="spanCaptchaCF">Captcha:</label>
+                                <span id="spanCaptchaCF"></span>
+                                <input type="tel" maxlength="20" id="textCaptchaCE" title="opcional">
+                                <button class="yellowButton" type="button" id="buttonCheckCaptchaCE">Revisar</button>
+                            </div>
+
+                            <div class="boton RegistroCentroEducativo">
+                                <button class="yellowButton" type="button"
+                                    id="btnRegistrarCentroEducativo">Registrar</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </section>
+
+
+
+                <!-- FIN - Seleccion de tipo CE-->
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="amejix"></div>
+    </footer>
+
+    <!-- <script src="js/style.js"></script>
+
+    <script src="js/controllerProfileInfo.js"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+        <script src="js/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVBOzt7iczOvEDQlyyXWI0rLnfBEaBEbY&callback=initMap"
+        async defer></script>
+
+
+    <!-- Cloudinary Scripts-->
+    <script src="https://cdn.jsdelivr.net/jquery.cloudinary/1.0.18/jquery.cloudinary.js"
+        type="text/javascript"></script>
+    <script src="js/servicioInicio.js"></script>
+    <script src="https://widget.cloudinary.com/global/all.js" type="text/javascript"></script>
+    <script src="js/servicioFotoRegistro.js"></script>
+
+    <script src="js/servicioDivicionPolitica.js"></script>
+    <script src="js/servicioRegistroUsuarios.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/controllerRegistroUsuarios.js"></script>
+
+
+</body>
+
+</html>

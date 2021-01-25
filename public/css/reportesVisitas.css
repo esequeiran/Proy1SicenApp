@@ -1,0 +1,55 @@
+.wrapper {
+    width: 98%;
+    min-height: 50vh;
+    margin: 0 auto;
+    /* background-color: white; */
+}
+
+h1 {
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 25px;
+    text-align: center;
+    color: #2c3e50
+}
+
+.inputStandard {
+    margin-bottom: 30px;
+    float: right;
+    margin-right: 5%;
+}
+.inputStandard div {
+    display: inline;
+ }
+ 
+ .inputStandard label {
+    color: #2c3e50;
+    margin-right: 18px;
+ }
+ 
+ .inputStandard #txtFiltro {
+    font-family: 'Raleway', sans-serif;
+    width: 255px;
+    height: 30px;
+    outline-color: #F9AA33;
+ }
+ 
+ #btnImprimir {
+    display: block;
+    margin-top: 45px;
+    padding: 14px 0px;
+    margin-top: 20px;
+    margin: 0 auto;
+    min-width: 155px;
+    background: #f9aa33;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+}
+
+#btnImprimir:hover {
+    background: #f9bf33
+}

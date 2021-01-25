@@ -1,0 +1,195 @@
+html{
+    font-size: 20px;
+}
+
+h1 {
+    margin-top: 40px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 5%;
+    font-size: 25px;
+    color: #2c3e50;
+}
+
+.inputStandard {
+    float: right;
+    margin-top: 40px;
+    margin-right: 5%;
+}
+
+#txtFiltro {
+    width: 250px;
+    font-size: 20px;
+}
+
+.centroEducativo {
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 45px;
+    width: 100%;
+}
+
+.photoCE {
+    display: block;
+    background: gray;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    float: left;
+}
+
+.nombreCE {
+    display: block;
+    float: left;
+    padding-top: 35px;
+}
+
+.nombreCE h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    float: left;
+}
+
+.tipoCE {
+    display: block;
+    float: left;
+    padding-top: 35px;
+}
+
+.tipoCE h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    float: left;
+}
+
+#tblUsuarios {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+#tblUsuarios a {
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+#tblUsuarios thead th {
+    background: #f9aa33;
+    color: white;
+}
+
+#tblUsuarios tbody td {
+    color: #2c3e50;
+}
+
+/*TABLA ETIQUERTAS*/
+
+#tblEtiquetasSeleccionadas {
+    border-collapse: separate;
+    border-spacing: 15px 15px;
+    width: 360px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#tblEtiquetasSeleccionadas a {
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+/* #tblEtiquetasSeleccionadas thead th {
+    background: #f9aa33;
+    color: white;
+} */
+
+#tblEtiquetasSeleccionadas tbody tr td {
+    color: #2c3e50;
+    text-align: center;
+    border: none;
+    background-color: #F1F2FC;
+    border-radius: 5px;
+}
+
+/* #tblEtiquetasSeleccionadas tbody tr td:hover {
+    color: #f9aa33;
+} */
+
+#divEtiquetas {
+    width: 90vh;
+    margin: 20px auto;
+    display: -webkit-box;
+    margin-left: 5%;
+}
+
+#sltEtiquetasDiv {
+    margin-top: 50px;
+    margin-right: 90px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    /* margin-left: 8%; */
+}
+/* 
+#sltEtiquetasDiv:after {
+    content: "\025be";
+    display: table-cell;
+    padding-top: 7px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    background-color: #d9d9d9;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    pointer-events: none;
+}
+
+#sltEtiquetas:focus {
+    outline: none;
+} */
+
+#sltEtiquetas {
+    /* background: transparent;
+    border: none;
+    padding: 5px;
+    width: 275px;
+    height: 40px;
+    color: #2c3e50;
+    font-size: 16px; */
+    display: inline-block;
+    width: 325px;
+    height: 35px;
+    font-size: 20px;
+}
+
+#lblEtiquetas {
+    color: #2c3e50;
+}
+
+/* #tblUsuarios a:hover {
+    text-decoration: none;
+    color: #f9aa33
+} */
+
+.awesome_images i {
+    display: inline-block;
+}
+
+.awesome_images {
+    float: right;
+    margin-right: 10px;
+}
+
+.awesome_images i:hover {
+    color: #f9aa33;
+    cursor: pointer;
+}
+
+ #cargando {
+    position: relative;
+    left: 750px;
+}

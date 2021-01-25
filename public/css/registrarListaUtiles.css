@@ -1,0 +1,332 @@
+h1{
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: #2c3e50;
+    /* display: inline-block;
+    margin-top: 40px;
+    margin-left: 5%;
+    font-size: 25px;
+    color: #2c3e50; */
+}
+
+.divRegistrar{
+    display: block;
+    margin-top: 50px;
+    margin-left: 5%;
+    
+}
+
+.filtroIzquierda{
+    float: left;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
+
+.filtroDerecha{
+    float: right;
+    margin-top: 40px;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+
+.filtroDerecha label{
+    display: inline-block;
+    width: 60px;
+    margin-left: 53px;
+    font-size: 20px;
+    margin-right: 42px;
+    
+}
+.filtroIzquierda label{
+    display: inline-block;
+    width: 60px;
+ 
+    font-size: 20px;
+    margin-right: 42px;
+
+}
+
+.txtFiltro{
+    display: inline-block;
+    width: 500px;
+    height: 30px;
+    font-size:20px;
+    outline: none;
+    
+}
+
+
+#txtFiltro{
+    display: inline-block;
+    width: 500px;
+    height: 30px;
+    outline: none;
+    font-size: 20px;
+}
+
+
+#tblArticulos {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+    /* border-collapse: collapse;
+    margin-left: 32px;
+    /* width: 80%; */
+    /* margin-bottom: 120px;
+    width: 90%;
+    margin: 0 auto; */     
+}
+
+
+th{
+    background: #f9aa33;
+    color: white;
+    text-align: center;
+    padding: 12px 1px;
+    border: #2c3e50 solid 1px;
+    vertical-align: middle;
+    font-size: 20px; 
+   
+}
+
+
+#tblArticulos tbody tr td{
+    color: #2c3e50;
+    
+    text-align: center;
+    padding: 12px 1px;
+    border: #2c3e50 solid 1px;
+    vertical-align: middle;
+    font-size: 20px;
+/*     
+    color: #344955;
+    border: 1px solid #344955;
+    text-align: center;
+    padding: 8px;
+    size: 20px;
+    vertical-align: middle !important; */
+    
+}
+#tblArticulos tbody tr td:hover{
+    color: white;
+    background: #4a6572;
+}
+
+
+h1{
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #2c3e50;
+    margin-bottom: 60px;    
+}
+
+form{
+    display: block;
+    margin: 0 auto;
+    width: 34%;
+    
+}
+
+.divFrm{
+    display: inline-block;
+   /* margin-right: 90px; */
+   margin-bottom: 50px;
+   
+}
+
+.lblInput{
+    color: #2c3e50;
+    margin-right: 18px;
+
+    color: #2c3e50;
+    margin-right: 5px;
+    display: inline-block;
+    width: 207px;
+    
+}
+.lblTextArea{
+   color: #2c3e50;
+   text-align: right;
+   float: left;
+   margin-right: 126px;
+   width: 86px;
+   
+
+}
+
+form div input{
+    font-family: 'Raleway', sans-serif;
+    width: 255px;
+    height: 22px;
+    outline-color: #F9AA33;
+
+/* 
+    display: inline-block;
+    width: 250px;
+    height: 30px;
+    
+    outline: none; */
+}
+#txtDescripcion div{
+    display: inline;
+}
+
+
+textarea{
+    font-family: 'Raleway', sans-serif;
+    resize: none;
+    width: 255px;
+    height: 120px;
+    outline-color: #F9AA33;
+ 
+}
+form div select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #344955;
+    background-image: none;
+    position: relative;
+    display: inline-block;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: #2c3e50;
+    overflow: hidden;
+    border-radius: .25em;
+    width: 262px;
+    height: 100%;
+    margin: 0;
+    padding: 0 0 0 .5em;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+
+
+    /* display: inline-block;
+    width: 254px;
+    height: 35px; */
+}
+#tblArticulos tbody td input{
+    font-size: 20px;
+    text-align: center;
+}
+.lblSelect{
+    color: #2c3e50;
+    margin-right: 18px;
+
+    color: #2c3e50;
+    margin-right: 5px;
+    display: inline-block;
+    width: 207px;
+    font-size: 20px;
+}
+
+select::-ms-expand {
+    display: none;
+ }
+ 
+select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 1em;
+    background: #344955;
+    pointer-events: none;
+ }
+ 
+select:hover::after {
+    color: #f9aa33;
+ }
+ 
+select::after {
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    color: white;
+ }
+
+.btnDiv{
+    display: block;
+    margin: 0 auto;
+}
+.btnRegistrar{
+    display: block;
+    padding: 14px 0px;
+    margin: 0 auto;
+    background: #f9aa33;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 150px;
+    margin-top: 45px;
+    min-width: 155px;
+    font-size: 18px;
+}
+
+.btnRegistrar:hover{
+    background: #f9bf33;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+input[type=text]:disabled{
+    background: transparent;
+    border: none;
+    color: #2c3e50;
+}
+
+.errorInput{
+    border: 1px solid #ED4C67;  
+}
+
+.inputSDescripcion{
+    width: 100%;
+}
+.inputSArticulo{
+    width: 100%;
+}
+
+.cantidad{
+    width: 30%;
+}
+
+.errorSelect{    
+    background-color: #ED4C67;
+}
+
+a{
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+
+a:hover{    
+    text-decoration: none;
+    color: #f9aa33
+    
+}
+
+
+
+
+
+

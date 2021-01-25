@@ -1,0 +1,170 @@
+
+h1{
+    display: block;
+   margin-top: 30px;
+   text-align: center;
+   font-size: 25px;
+   color: #2c3e50;
+
+    /* margin: 30px;
+    font-size: 20px;
+    text-align: center; */
+}
+
+form div select{
+    display: inline-block;
+    width: 254px;
+    height: 35px;
+}
+form div{
+    margin-right: 90px;
+     margin-bottom: 50px;
+    
+ }
+ form div label{
+    display: inline-block;
+    width: 190px;
+    margin-left: 32px;
+}
+
+#tblCriteriosMEP{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ 
+
+    /* text-align: center;
+    border-collapse: collapse;
+    /* margin-left: 32px; */
+    /* width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px; */ 
+    
+}
+
+#tblRangoCriteriosMEP{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+ 
+
+    /* text-align: center;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px; */
+   
+}
+
+th{
+
+    background: #f9aa33;
+    color: white;
+    text-align: center;
+   padding: 12px 1px;
+   border: #2c3e50 solid 1px;
+   vertical-align: middle;
+   font-size: 20px;
+
+ 
+    /* color: white;
+    background-color: #f9bf33;
+    border: #2c3e50 solid 1px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 65px;
+    padding-left: 65px; */
+
+   
+    
+}
+
+
+
+
+#tblCriteriosMEP tbody tr td{
+
+    color: #2c3e50;
+   vertical-align: middle;
+   text-align: center;
+   padding: 12px 1px;
+   border: #2c3e50 solid 1px;
+   vertical-align: middle;
+   font-size: 20px;
+
+/*    
+    color: #344955;
+    border: 1px solid #344955;
+    text-align: center;
+    padding: 8px; */
+}
+
+#tblCriteriosMEP tbody tr td:hover{
+    color: white;
+    background: #4a6572;
+}
+
+
+#tblRangoCriteriosMEP tbody tr td{
+    color: #2c3e50;
+    vertical-align: middle;
+    text-align: center;
+    padding: 12px 1px;
+    border: #2c3e50 solid 1px;
+    vertical-align: middle;
+    font-size: 20px;
+
+    /* color: #344955;
+    border: 1px solid #344955;
+    text-align: center;
+    padding: 8px; */
+}
+#tblRangoCriteriosMEP tbody tr td:hover{
+    color: white;
+    background: #4a6572;
+}
+
+a{
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+
+a:hover{    
+    text-decoration: none;
+    color: #f9aa33
+    
+}
+
+.divRegistrar{
+    display: block;
+    margin-top: 50px;
+    margin-left: 5%;
+
+    
+}
+
+
+
+.botonEliminarCriterios{
+    border: none;
+    background-color: transparent;
+    color: #2c3e50;
+    font-size: 20px;
+
+}
+.botonEliminarCriterios:hover{
+    border:none;   
+    background: #4a6572;
+    text-decoration: none;
+    color: #f9aa33;
+}
+
+

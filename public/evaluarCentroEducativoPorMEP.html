@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evaluar centro educativo</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/perfil.css">
+    <link rel="stylesheet" href="css/profileInfo.css">
+    <!-- <link rel="stylesheet" href="css/listarUtiles.css"> -->
+    <link rel="stylesheet"  href="css/evaluarCEMEP.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <div class="userInfo">
+                <div class="userPhoto"></div>
+                <div class="nameWrapper">
+                    <h4></h4>
+                </div>
+
+                <div class="subMenu">
+                    <a href="userProfileInfo.html">Perfil</a>
+                    <a href="actualizarUsuario.html">Información Personal</a>
+                    <a href="" id="logOut">Cerrar sesión</a>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+
+        <!-- <a href="listarUtilesPropiosCE.html">Ver</a>
+                        <a href="registarListaUtiles.html">Registrar</a> -->
+                        <div class="sideNav">
+                            <a class="aBack" href="userProfileInfo.html">
+                                <div class="sicenLogo"></div>
+                            </a>
+                            <div class="line"></div>
+                
+                            <button class="btnDropdown" id="menuInformativo">
+                                <span><i class="fas fa-info"></i></span>
+                                Información
+                            </button>
+                            <div class="dropdownContainer">
+                                <a href="mostrarMatriculaCostos.html">Matrículas</a>
+                                <a href="mostrarIdiomas.html">Idiomas</a>
+                                <a href="mostrarBecas.html">Becas</a>
+                                <a href="misCitasCE.html">Citas</a>
+                                <a href="mostrarMaterialInformativo.html">Material Informativo</a>
+                                <a href="mostrarNoticias.html">Noticias</a>
+                                <a href="listarActividadesPropiasCE.html">Actividades</a>
+                                <a href="listarArticulosPropios.html">Artículos escolares</a>
+                                <a href="listarUtilesPropiosCE.html">Lista de útiles</a>
+                                <a href="criteriosBusqueda.html">Etiquetas</a>
+                                <a href="preguntasFrecuentesCE&Admin.html" id="aPreguntasCE">Preguntas frecuentes</a>
+                                <a href="preguntasFrecuentesPF.html" id="aPreguntasPF">Preguntas frecuentes</a>                
+                            </div>
+                
+                            <button class="btnDropdown" id="menuAdministrativo">
+                                <span><i class="fas fa-clipboard-list"></i></span>
+                                Administrativo
+                            </button>
+                            <div class="dropdownContainer">
+                                <a href="bitacora.html">Bitácora</a>
+                                <a href="solicitudes.html">Notificaciones</a>
+                                <a href="listarCriteriosMEP.html">Criterios de evaluación</a>
+                                <a href="listarCriteriosMEP.html">Rangos de evaluación</a>
+                                <a href="listarArticulosPropios.html">Artículos escolares</a>
+                                <a href="listarUtilesOficialesSA.html">Lista de útiles</a>
+                                <a href="criteriosBusqueda.html">Etiquetas</a>
+                            </div>
+                
+                            <button class="btnDropdown" id="menuInfoCE">
+                                <span><i class="fas fa-school"></i></span>
+                                Centros educativos
+                            </button>
+                            <div class="dropdownContainer">
+                                <a href="registroUsuarios.html" id="aRegistrarCE">Registrar</a>
+                                <a href="listarCentrosEducativos.html">Buscar</a>
+                                <a href="misFavoritos.html" id="aFavoritos">Favoritos</a>
+                                <a href="listarTopCentrosEducativos.html">Top 10 MEP</a>
+                                <a href="topCentrosEducativosPF.html">Top 10 por padres de familia</a>
+                                <a href="evaluarCentroEducativoPorMEP.html" id="aEvaluarCE">Evaluar centro educativo</a>
+                                <a href="administrarCE.html" id="adminCE">Administrar cuentas</a>
+                                <a href="listarCEUbicacion.html" id="aCEcercanos">Centros educativos cercanos</a>
+                            </div>
+                
+                            <button class="btnDropdown" id="verPadres">
+                                <span><i class="fas fa-user-friends"></i></span>
+                                Padres de familia
+                            </button>
+                            <div class="dropdownContainer">
+                                <a href="listarPadresFamilia.html">Buscar</a>
+                                <a href="administrarPF.html" id="adminPF">Administrar cuentas</a>
+                            </div>
+                
+                            <a href="misCitasPF.html" id="menuCitasPF"><span><i class="far fa-calendar-check"></i></span>Citas
+                                agendadas</a>
+                
+                            <!-- <a href="listarPadresFamilia.html" id="verPadres"><span><i class="fas fa-search"></i></span>Buscar
+                                padres de familia</a> -->
+                
+                            <button class="btnDropdown" id="verInfoMep">
+                                <span><i class="fas fa-university"></i></span>
+                                MEP
+                            </button>
+                            <div class="dropdownContainer">
+                                <a href="listarInfoMep.html">Contacto</a>
+                                <a href="listarUtilesOficiales.html">Lista oficial de útiles</a>
+                            </div>
+                
+                            <button class="btnDropdown" id="reportesSA">
+                                <span><i class="fas fa-file-alt"></i></i></span>
+                                Reportes
+                            </button>
+                            <div class="dropdownContainer">
+                                <a href="reporteRankingMEP.html">Ranking MEP</a>
+                                <a href="reporteVisitasAdmin.html">Visitas</a>
+                                <a href="reporteDeHijos.html">Hijos</a>
+                                <a href="reporteRankingPFCE.html">Ranking por padres de familia</a>
+                            </div>
+                
+                            <button class="btnDropdown" id="reportesCE">
+                                <span><i class="fas fa-file-alt"></i></span>
+                                Reportes
+                            </button>
+                            <div class="dropdownContainer">
+                                <a href="rankingStarsMEPSolicitudCE.html">Ranking MEP</a>
+                <a href="reporteVisitas.html">Visitas</a>
+                <a href="reporteRankingPF.html">Ranking por padres de familia</a>
+                            </div>
+                
+                        </div>
+
+        <div class="contenido" style="overflow-y: scroll;">
+       <div id="primerContenido">
+            <h1>Lista de centros educativos</h1>                    
+           
+            
+                                
+                    <div class="filtroDerecha">
+                        <label for="txtFiltro">Buscar</label>
+                        <input type="text" id="txtFiltro" placeholder="Escriba el nombre de la institución">
+                    </div>  
+                
+
+           
+            <table id="tablaListaCE">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Valorar</th>   
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+       </div>
+
+       <div id="segundoContenido">
+            <h1>Evaluación del centro educativo</h1>
+            <div id="contenidoEncabezadoCE" class="contenidoCEEncabezado">
+                                
+                    <input type="text" disabled id="nombreCE">
+                    <h2 id="anno"></h2>
+            </div>
+            
+            <div class="contenedorTablas">
+                <div class="divTablaIzquierda"></div>
+                <table id="tblCriteriosMEP">
+                        <thead>
+                            <tr>
+                                <th>Criterio</th>
+                                <th>Descripción</th>
+                                <th>Puntaje máximo</th>
+                                <th>Puntaje obtenido</th>                          
+                            </tr>
+                        </thead>
+                        <tbody>
+        
+                        </tbody>
+     
+                    </table>
+                    <div class="divTotal contenidoCEEncabezado">
+                        <label for="inpTotal" id="lblTotal" class="labels">Total</label>
+                        <input type="number" disabled id="inpTotal" >
+                    </div>
+
+                <div class="divTablaDerecha"></div>
+
+                <table id="tblRangoCriteriosMEP">
+                        <thead>
+                            <tr>
+                                <th>Rango</th>
+                                <th>Valor mínimo</th>
+                                <th>Valor máximo</th>
+                                <th>Cantidad de estrellas</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+        
+                        </tbody>
+        
+                    </table>
+                    <div class="divEstrellas contenidoCEEncabezado">
+                        <label for="inpEstrellas" class="labels">Estrellas</label>
+                        <input type="text" disabled id="inpEstrellas">
+                    </div>
+            </div>
+           
+            <div class="btnDiv">
+                    <button type="button" class="btnRegistrar" id="btnRegistrar">Registrar</button>
+                </div>
+
+                <div id="divInputCE"></div>   
+
+       </div>
+
+      
+           
+          
+        </div>
+    </main>
+    <script src="js/style.js"></script>
+    <script src="js/authentication.js"></script>
+    <script src="js/controlador.general.js"></script>
+    <script src="js/controllerProfileInfo.js"></script>
+    <script src="js/servicio.encabezadoEstrellas.js"></script>
+    <script src="js/encabezadoEstrellas.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVBOzt7iczOvEDQlyyXWI0rLnfBEaBEbY&callback=initMap" async defer></script>
+    <script src="js/mapUser.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    
+    <script src="js/servicio.evaluarCEPorMEP.js"></script>
+    <script src="js/controlador.evaluarCentroEducativoPorMEP.js"></script>
+    <script src="js/mostrarNombre.controller.js"></script>
+</body>
+
+</html>

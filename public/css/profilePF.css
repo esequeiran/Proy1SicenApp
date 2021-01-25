@@ -1,0 +1,117 @@
+.infoPF {
+    width: 98%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.infoPF .photoPF {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin: 25px;
+    float: left;
+}
+
+.infoWrapper {
+    width: 500px;
+    display: table-cell;
+    height: 200px;
+    vertical-align: middle;
+}
+
+.infoPF .infoPFAdentro {
+    display: inline-block;
+    width: 500px;
+    height: 85px;
+}
+
+.infoPF .infoPFAdentro h2 {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.infoPF .infoPFAdentro h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.infoPF .infoPFAdentro div {
+
+}
+
+.stars {
+    color: #F9AA33;
+}
+
+.tabs {
+    font-family: 'Raleway', sans-serif;
+    width: 98%;
+    padding-top: 1%;
+    margin: 0 auto;
+}
+
+.tabContainer {
+    width: 100%;
+    height: 350px;
+}
+
+.tabContainer .buttonContainer {
+    height: 15%;
+}
+
+.tabContainer .buttonContainer button {
+    width: 100%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    background-color: #34495D;
+    color: white;
+}
+
+
+
+.tabContainer .tabPanel {
+    color: #344955;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    display: none;
+}
+
+/* .stars-outer {
+    position: relative;
+    display: inline-block;
+}
+
+.stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    width: 0;
+}
+
+.stars-outer::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #ccc;
+}
+
+.stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #F9AA33;
+} */

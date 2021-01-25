@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Editar matrículas</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/perfil.css">
+    <link rel="stylesheet" href="css/registrarMatriculaCosto.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <div class="userInfo">
+                <div class="userPhoto"></div>
+                <div class="nameWrapper">
+                    <h4></h4>
+                </div>
+
+                <div class="subMenu">
+                    <a href="userProfileInfo.html">Perfil</a>
+                    <a href="informacionPersonalUsuario.html">Información Personal</a>
+                    <a href="" id="logOut">Cerrar sesión</a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <div class="sideNav">
+            <a class="aBack" href="userProfileInfo.html">
+                <div class="sicenLogo"></div>
+            </a>
+            <div class="line"></div>
+
+            <button class="btnDropdown" id="menuInformativo">
+                <span><i class="fas fa-info"></i></span>
+                Información
+            </button>
+            <!----------------------Inicio opción---------------------->
+            <div class="dropdownContainer">
+                <a href="" id="aInfoCE">Información del Centro educativo</a>
+                <a href="" id="aMatricula">Matrícula</a>
+                <a href="" id="aBecas">Becas</a>
+                <!--<a href="" id="aCitas">Citas</a>-->
+                <a href="" id="aMaterialInformativo">Material Informativo</a>
+                <a href="" id="aNoticias">Noticias</a>
+                <a href="" id="aActividades">Actividades</a>
+                <a href="" id="aUtiles">Lista de útiles</a>
+                <a href="" id="aPreguntasFrecuentes">Preguntas Frecuentes</a>
+                <a href="" id="aEtiquetas">Etiquetas</a>
+            </div>
+
+            <button class="btnDropdown" id="menuCitasEnCE">
+                <span><i class="far fa-calendar-check"></i></span>
+                Citas
+            </button>
+            <div class="dropdownContainer">
+                <a href="citas.html" id="aAgendarCita">Agendar cita</a>
+            </div>
+
+        </div>
+
+        <div class="contenido" style="overflow-y: scroll;">
+
+            <h1>Actualizar matrículas</h1>
+
+            <div id="divPrecioMatricula">
+                <label for="inputPrecioMatricula" id="labelPrecioMatricula">Matrícula</label>
+                <input type="number" id="inputPrecioMatricula" min="0">
+            </div>
+
+            <div id="divPrecioMensualidad">
+                <label for="inputPrecioMensualidad" id="labelPrecioMensualidad">Mensualidad</label>
+                <input type="number" id="inputPrecioMensualidad" min="0">
+            </div>
+
+            <fieldset id="fieldsetPrecio">
+                <legend>Tipo de moneda</legend>
+                <input type="radio" name="fieldset" id="fieldsetPrecio" value="Colones">
+                <label for="">₡ Colones</label>
+                <input type="radio" name="fieldset" id="fieldsetPrecio" value="Dólares">
+                <label for="">$ Dolares</label>
+                <input type="radio" name="fieldset" id="fieldsetPrecio" value="Euros">
+                <label for="">€ Euros</label>
+            </fieldset>
+
+            <div id="divRegistrarMatricula">
+                <button id="btnRegistrarMatricula">Actualizar matrícula</button>
+            </div>
+
+        </div>
+    </main>
+    <script src="js/style.js"></script>
+    <script src="js/authentication.js"></script>
+    <script src="js/controllerProfileInfo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/controlador.general.js"></script>
+    <script src="js/mostrarNombre.controller.js"></script>
+    <script src="js/servicio.registrarMatriculaCosto.js"></script>
+    <script src="js/controlador.editarMatriculas.js"></script>
+</body>
+
+</html>

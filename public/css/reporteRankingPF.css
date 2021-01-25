@@ -1,0 +1,57 @@
+h1 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 25px;
+    color: #2c3e50
+}
+
+#tblReportePF {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+th {
+    background: #f9aa33;
+    color: white;
+}
+
+td {
+    color: #2c3e50;
+    vertical-align: middle;
+}
+
+td:hover {
+    color: white;
+    background: #4a6572;
+}
+
+td, th {
+    text-align: center;
+    padding: 12px 1px;
+    border: #2c3e50 solid 1px;
+    vertical-align: middle;
+}
+
+#btnImprimir {
+    display: block;
+    margin-top: 45px;
+    padding: 14px 0px;
+    margin-top: 20px;
+    margin: 0 auto;
+    min-width: 155px;
+    background: #f9aa33;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+}
+
+#btnImprimir:hover {
+    background: #f9bf33
+}

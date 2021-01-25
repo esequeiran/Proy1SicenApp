@@ -1,0 +1,139 @@
+.contenido{
+    text-align: center;
+}
+
+h1{
+    /*font-size: 25px;*/
+    /*text-align: center;*/
+    /*color: #2c3e50;*/
+    /*margin-top: 40px;*/
+    /*margin-bottom: 40px;*/
+    /*text-shadow: -3px -2px 10px #344955;*/
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 5%;
+    font-size: 25px;
+    color: #2c3e50;
+    text-align: left;
+    float: left;
+}
+
+table#tblCitas{
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+#lblFiltrar{
+    width: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#txtFiltrar{
+    margin-left: 12px;
+    width: 20%;
+    margin-bottom: 50px;
+    outline: none;
+    border: 1px #344955 solid;
+}
+
+#txtFiltrar::placeholder{
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+/* #txtFiltrar::placeholder{
+    text-align: center;
+} */
+
+#cajaFiltrar{
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 10%;
+}
+
+#txtFiltrar, #lblFiltrar{
+    font-size: 14px;
+}
+/*thead{*/
+/*    background-color: #f9aa33;*/
+/*}*/
+
+/*table#tblCitas thead th, table#tblCitas tbody tr td{*/
+/*    width: 25%;*/
+/*    height: 80px;*/
+/*    vertical-align: middle;*/
+/*    text-align: center;*/
+/*    border: 1px #344955 solid;*/
+/*}*/
+
+
+/*th{*/
+/*    color: #ffffff;*/
+/*}*/
+
+/*td:hover{*/
+/*    background-color: #344955;*/
+/*    color: white;*/
+/*}*/
+#tblCitas{
+border-collapse: collapse;
+width: 90%;
+margin: 0 auto;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+th {
+    background: #f9aa33;
+    color: white;
+}
+
+td {
+    color: #2c3e50;
+    vertical-align: middle;
+}
+
+td:hover {
+    color: white;
+    background: #4a6572;
+}
+
+td, th {
+    text-align: center;
+    padding: 12px 1px;
+    border: #2c3e50 solid 1px;
+    vertical-align: middle;
+}
+
+
+.institucion, .fechaHora, .padre{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+#error{
+    display: inline-block;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+    color: #f9aa33;
+    width: 400px;
+}
+
+.celdaCancelar{
+    width: 50px;
+}
+
+.awesome_images{
+    text-align: center;
+}
+.awesome_images i{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.awesome_images i:hover{
+    color: #f9aa33;
+}

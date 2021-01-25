@@ -1,0 +1,36 @@
+.contenido{
+    text-align: center;
+}
+
+#error{
+    text-align: center;
+    margin-top: 125px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    color: #344955;
+}
+
+#cajaImagen{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+h1{
+    font-size: 50px;
+    display: block;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #f9aa33;
+}
+
+a {
+    display: inline-block;
+    text-align: center;
+    color: #344955;
+}
+
+a:hover {
+    color: #f9aa33;
+}

@@ -1,0 +1,138 @@
+.btnEliminar {
+    width: 32px;
+    border: none;
+    background-color: transparent;
+    color: #2c3e50;
+    outline: none;
+    cursor: pointer;
+    float: right;
+}
+
+.errorInput {
+    border: #e74c3c solid 1px;
+}
+
+.selected {
+    color: #F9AA33;
+}
+
+.comentarios h1 {
+    padding-top: 4%;
+    padding-bottom: 2%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#cajaComentarios {
+    width: 70%;
+    min-height: 148px;
+    margin: 0 auto;
+    margin-bottom: 4%;
+    padding-bottom: 30px;
+}
+
+#cajaComentarios .commentInfo {
+    width: 100%;
+    min-height: 55px;
+}
+
+#cajaComentarios .userPic {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-left: 15px;
+    float: left;
+}
+
+#cajaComentarios .userName {
+    float: left;
+    padding: 20px;
+}
+
+#cajaComentarios .starrr {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    padding: 7px 0px 7px 15px;
+    margin: 0;
+}
+
+#cajaComentarios .starrr a {
+    font-size: 16px;
+    padding: 0 1px;
+    cursor: pointer;
+    color: #FFD119;
+    text-decoration: none;
+}
+
+#cajaComentarios .comment {
+    text-align: left;
+    margin: 1%;
+    margin-left: 18px;
+    margin-bottom: 40px;
+}
+
+#registrarComentarioDiv {
+    width: 50%;
+    margin: 0 auto;
+    height: 290px;
+}
+
+.starsPF {
+    width: 40%;
+    height: 30px;
+    margin-left: 21.5%;
+}
+
+.btnStars {
+    float: left;
+    cursor: default;
+}
+
+.starsPF button {
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    color: gainsboro;
+    outline: none;
+    cursor: pointer;
+}
+
+#registrarComentarioDiv label {
+    color: #2c3e50;
+    text-align: right;
+    width: 18%;
+    float: left;
+}
+
+#registrarComentarioDiv textarea {
+    font-family: 'Raleway', sans-serif;
+    resize: none;
+    width: 65%;
+    height: 175px;
+    outline-color: #F9AA33;
+    float: left;
+}
+
+#send {
+    border: none;
+    background: transparent;
+    color: #2c3e50;
+    font-size: 20px;
+    cursor: pointer;
+    float: left;
+    margin-top: 160px;
+    margin-left: 5px;
+    outline: none;
+}
+
+#send:hover {
+    color: #F9AA33;
+    cursor: pointer;
+    transition: all 200ms ease;
+}

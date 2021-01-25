@@ -1,0 +1,237 @@
+
+h1{
+    display: block;
+   margin-top: 30px;
+   text-align: center;
+   font-size: 25px;
+   color: #2c3e50;
+ 
+}
+
+.filtroIzquierda{
+    float: left;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
+
+.filtroDerecha{
+    float: right;
+    margin-top: 40px;
+    margin-right: 20%;
+    margin-bottom: 50px;
+}
+
+.filtroDerecha label{
+    display: inline-block;
+    width: 60px;
+    margin-left: 53px;
+    font-size: 20px;
+    margin-right: 42px;
+}
+
+#txtFiltro{
+    display: inline-block;
+    width: 500px;
+    height: 30px;
+    outline: none;
+    font-size: 20px;
+}
+
+section{
+    display: block;
+    margin-bottom: 100px;
+    margin-top: 150px;
+   
+}
+
+
+
+.cardActividadClass{
+    display: flow-root;
+    width: 60%;
+    height: 450px;
+    margin: 0 auto;
+    -webkit-box-shadow: 2px 0 4px rgba(.08, .08, .08, .08);
+    box-shadow: 2px 0 4px rgba(0.4, 0.4, 0.4, 0.4);
+    background-color: white;
+    margin-bottom: 70px;
+
+}
+.columnaIzquierda{   
+    float: left;
+    width: 45%;
+    margin-top: 20px;
+}
+
+.columnaDerecha{   
+    float: right;
+    width: 45%;
+    margin-top: 20px;
+    
+}
+
+.h2{
+    display: block;
+   margin-top: 30px;
+   text-align: center;
+   font-size: 22px;
+   color: #f9aa33;
+   font-style: bold;
+   margin-bottom: 50px;
+}
+
+.parrafo{
+    display: block;
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 20px;
+    color: #2c3e50 ;
+    margin-bottom: 50px;
+    padding-left: 3%;
+}
+.h3{
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #2c3e50 ;
+}
+
+.carousel {
+   
+    margin: 0 auto;
+    display: flex;
+}
+
+.celdaImagen{
+    height: 120px;
+    width: 110px;
+    margin-right: 2px;
+    object-fit: contain;
+}
+
+#imagenCarousel{
+    display: block;
+    width: 80%;
+    height: 300px;
+    background-size: contain;
+    border-radius: 16px;
+    margin: 0 auto;
+    
+}
+
+.divBajoCD{
+    display: flex;    
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.divBajoCDIz{
+    display: flex;    
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+th{
+    background: #f9aa33;
+    color: white;
+    text-align: center;
+   padding: 12px 1px;
+   border: #2c3e50 solid 1px;
+   vertical-align: middle;   
+   
+}
+.boton{
+    display: inline-block;
+    padding: 9px 21px;
+    justify-content: center;
+    background: #f9aa33;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 5%;
+}
+
+.boton:hover{
+    background: #f9bf33;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.cardNingunaActi{ 
+    margin-top: 50px;   
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    -webkit-box-shadow: 2px 0 4px rgba(.08, .08, .08, .08);
+    box-shadow: 2px 0 4px rgba(0.4, 0.4, 0.4, 0.4);
+    background-color: white;
+    margin-bottom: 70px;
+}
+
+.h2tituloAux{
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #f9aa33;
+    font-style: bold;
+    margin-bottom: 50px;
+    padding-top: 116px;
+}
+
+a{
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+
+a:hover{    
+    text-decoration: none;
+    color: #f9aa33
+    
+}
+
+#btnEditar{
+    text-decoration: none;
+    color: #2c3e50 ;
+}
+
+#btnEditar:hover{    
+    text-decoration: none;
+    color: #f9aa33
+    
+}
+
+#btnEliminar{
+    border: none;
+    background-color: transparent;
+    color: #2c3e50;
+    font-size: 20px;
+
+}
+
+#btnEliminar:hover{
+    text-decoration: none;
+    color: #f9aa33
+
+}
+
+.pMsgNoImagen{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 170px;
+}
+
+
+
+
+
+

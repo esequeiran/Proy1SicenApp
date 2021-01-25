@@ -1,0 +1,507 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    overflow: hidden;
+    background: #EDF0F5;
+}
+
+*::selection {
+    background: #F9AA33;
+    color: white;
+}
+
+*::-moz-selection {
+    background: #F9AA33;
+    color: white;
+}
+
+header nav {
+    width: 84.3%;
+    height: 70px;
+    margin-bottom: 1%;
+    background: white;
+    float: right;
+    -webkit-box-shadow: 2px 0 4px rgba(0, 0, 0, .08);
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.fa-long-arrow-alt-left {
+    float: left;
+    font-size: 35px;
+    color: #34495D;
+    padding: 18px 18px;
+}
+
+.sicenLogo {
+    background-image: url(../img/SICENblanco.png);
+    background-size: contain;
+    background-repeat-y: no-repeat;
+    background-repeat-x: no-repeat;
+    width: 110px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sideNav .aBack {
+    margin: 0;
+    padding: 0;
+}
+
+.line {
+    border-bottom: 1px solid #F9AA33;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.userInfo {
+    width: 280px;
+    height: 70px;
+    border-radius: 5px;
+    float: right;
+}
+
+.userInfo a {
+    display: none;
+    margin-bottom: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.userInfo a:hover {
+    color: #F9AA33;
+}
+
+.userInfo:hover {
+    background: #34495D;
+    border-radius: 7px;
+    width: 280px;
+    height: 210px;
+    transition: all 300ms ease;
+    -webkit-box-shadow: 2px 0 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.userInfo:hover h4 {
+    color: white;
+}
+
+.userInfo:hover .subMenu a {
+    display: block;
+    transition: all 300ms ease;
+    transition: all 300ms ease-out;
+}
+
+.subMenu {
+    margin-top: 20px;
+}
+
+.userPhoto {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 9px;
+    margin-right: 25px;
+    float: right;
+}
+
+.nameWrapper {
+    width: 180px;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+}
+
+.userInfo h4 {
+    width: 180px;
+    color: #34495D;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* SIDEBAR */
+
+.sideNav {
+    /* width: 230px; */
+    width: 15.7%;
+    height: 100vh;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    float: left;
+    background-color: #34495D;
+    overflow-x: hidden;
+}
+
+.sideNav a, .btnDropdown {
+    font-family: 'Raleway', sans-serif;
+    padding: 12px 0px 12px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+.sideNav a:hover, .btnDropdown:hover {
+    color: #F9AA33;
+    transition: all 300ms ease;
+}
+
+.active {
+    border-left: 4px solid #F9AA33;
+    color: #F9AA33;
+    transition: all 300ms ease;
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdownContainer {
+    display: none;
+    border-left: 4px solid #F9AA33;
+    padding-left: 8px;
+    transition: all 300ms ease;
+    transition: all 0.3s ease-in-out;
+}
+
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+.sideNav span i {
+    margin-right: 10px;
+    font-size: 16px;
+    text-align: center;
+    width: 20px;
+}
+
+span {
+    width: 10px;
+    height: 10px;
+}
+
+.contenido {
+    width: 84.3%;
+    height: 100vh;
+    margin-left: 15.7%;
+    margin-top: 70px;
+}
+
+/************* ESTÁNDAR PARA CSS GENERAL **************/
+
+/* TITULOS */
+
+.h1Standard {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: #2c3e50;
+}
+
+/* LINKS */
+
+.aStandard {
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+.aStandard:hover {
+    color: #F9AA33;
+    transition: all 300ms ease;
+}
+
+/* INPUT */
+
+.inputStandard div {
+    display: inline;
+}
+
+.inputStandard label {
+    color: #2c3e50;
+    margin-right: 18px;
+}
+
+.inputStandard input {
+    font-family: 'Raleway', sans-serif;
+    width: 255px;
+    height: 25px;
+    outline-color: #F9AA33;
+}
+
+/* TEXTAREA */
+
+.textAreaStandard div {
+    display: inline;
+}
+
+.textAreaStandard label {
+    color: #2c3e50;
+    text-align: right;
+    float: left;
+    margin-right: 18px;
+}
+
+.textAreaStandard textarea {
+    font-family: 'Raleway', sans-serif;
+    resize: none;
+    width: 255px;
+    height: 120px;
+    outline-color: #F9AA33;
+}
+
+/* BOTONES */
+
+.btnStandard {
+    display: block;
+    margin-top: 45px;
+    padding: 14px 0px;
+    margin-top: 20px;
+    margin: 0 auto;
+    min-width: 155px;
+    background: #f9aa33;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btnStandard:hover {
+    background: #f9bf33;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+/* IMAGE HOLDER */
+
+.imageHolder {
+    width: 100px;
+    height: 100px;
+}
+
+/* .imageHolder {
+    width: 120px;
+    height: 110px;
+    background-image: url(../img/imageHolder.png);
+    border-radius: 5px;
+}
+
+.imgHover p {
+    display: none;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 38px;
+}
+
+.imgHover:hover {
+    background: #344955;
+    transition: ease 650ms;
+    cursor: pointer;
+}
+
+.imgHover:hover p {
+    display: block;
+} */
+
+/* TABLA STANDARD */
+
+#tblStandard {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+th {
+    background: #f9aa33;
+    color: white;
+}
+
+td {
+    color: #2c3e50;
+    vertical-align: middle;
+}
+
+td:hover {
+    color: white;
+    background: #4a6572;
+}
+
+td, th {
+    text-align: center;
+    padding: 12px 1px;
+    border: #2c3e50 solid 1px;
+    vertical-align: middle;
+}
+
+/* SELECT STANDARD */
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #344955;
+    background-image: none;
+}
+
+.select {
+    position: relative;
+    display: block;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: #2c3e50;
+    overflow: hidden;
+    border-radius: .25em;
+}
+
+select {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 0 0 .5em;
+    color: #fff;
+    cursor: pointer;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 1em;
+    background: #344955;
+    pointer-events: none;
+}
+
+.select:hover::after {
+    color: #f9aa33;
+}
+
+.select::after {
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    color: white;
+}
+
+/* RADIO STANDARD */
+
+.checkContainer {
+    display: block;
+    position: relative;
+    padding: 2px 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    background-color: #eee;
+}
+
+.checkContainer:hover input~.checkmark {
+    background-color: #eee;
+}
+
+.checkContainer input:checked~.checkmark {
+    background-color: #F9AA33;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkContainer input:checked~.checkmark:after {
+    display: block;
+}
+
+.checkContainer .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.estrellas {
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    color: #f9aa33;
+    font-style: bold;
+    vertical-align: middle;
+}
+
+#divGeneralEstrellas {
+    display: inline-block;
+    width: 35%;
+    text-align: left;
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+#divEncabezadoH2Estrellas {
+    display: inline-block;
+    float: left;
+}
+
+#encabezadoH2Estrellas {
+    display: inline-block;
+    padding: 25px;
+}
+
+#divEstrellas {
+    display: inline-block;
+    padding: 24px 0px;
+}

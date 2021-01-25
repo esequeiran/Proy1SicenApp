@@ -1,0 +1,71 @@
+h1 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    /* display: inline-block; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* margin-left: 5%; */
+    font-size: 25px;
+    color: #2c3e50;
+}
+
+.filtrar {
+    float: right;
+    margin-top: 40px;
+    margin-right: 5%;
+}
+
+
+.centroEducativo {
+    display: inline-block;  
+    margin-left: 5%;
+    margin-top: 45px;
+    width: 100%;  
+}
+
+.contenido{
+    font-family: 'Raleway', sans-serif;
+    outline-color: #F9AA33;
+    font-size: 20px;
+
+}
+
+
+
+#tableBitacora {
+    
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom:110px;
+}
+
+
+#tableBitacora a{
+    text-decoration: none;
+    color: #2c3e50;
+
+}
+
+th {
+    background: #f9aa33;
+    color: white;
+}
+
+td {
+    color: #2c3e50;
+}
+
+
+
+td, th {
+    text-align: center;
+    padding: 12px 1px;
+    border: #2c3e50 solid 1px;
+}
+
+#tableBitacora a:hover{
+    text-decoration: none;
+    color: #f9aa33
+}

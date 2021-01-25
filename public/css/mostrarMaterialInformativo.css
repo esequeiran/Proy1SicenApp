@@ -1,0 +1,123 @@
+.btnEliminar {
+    width: 32px;
+    border: none;
+    background-color: transparent;
+    color: #2c3e50;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+h1 {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 5%;
+    font-size: 25px;
+    color: #2c3e50
+}
+
+.celdaImagen {
+    width: 155px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.filtrar {
+    float: right;
+    margin-top: 40px;
+    margin-right: 5%;
+    margin-bottom: 45px;
+}
+
+.filtrar label {
+    color: #2c3e50;
+    margin-right: 18px;
+}
+
+.filtrar input {
+    font-family: 'Raleway', sans-serif;
+    width: 255px;
+    height: 22px;
+    outline-color: #F9AA33;
+}
+
+.aRegistrar {
+    display: block;
+    margin-left: 5%;
+    margin-top: 45px;
+    margin-bottom: 1%;
+    color: #2c3e50;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.aRegistrar:hover {
+    color: #f9aa33;
+    transition: all 300ms;
+}
+
+#tblMaterialInformativo {
+    /* border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px; */
+    
+    border-collapse: collapse;
+    margin-left: 32px;
+    margin-bottom: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+th {
+    background: #f9aa33;
+    color: white;
+    border: #2c3e50 solid 1px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+tbody tr td {
+    color: #344955;
+    border: #2c3e50 solid 1px;
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+}
+
+/* td {
+    color: #2c3e50;
+    vertical-align: middle;
+}
+
+td:hover {
+    color: white;
+    background: #4a6572;
+}
+
+td, th {
+    text-align: center;
+    padding: 12px 1px;
+    border: #2c3e50 solid 1px;
+    vertical-align: middle;
+} */
+
+#btnInfo {
+    display: block;
+    margin-top: 45px;
+    padding: 14px 50px;
+    margin-top: 20px;
+    margin: 0 auto;
+    background: #f9aa33;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#btnInfo:hover {
+    background: #f9bf33
+}

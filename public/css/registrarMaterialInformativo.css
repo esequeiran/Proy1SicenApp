@@ -1,0 +1,104 @@
+.errorInput {
+    border: #e74c3c solid 1px;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contenedorForm {
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 115px;
+}
+
+#frmInformativo {
+    width: 40%;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+#frmInformativo div{
+    margin-bottom: 20px;
+    width: 550px;
+}
+
+#frmInformativo label {
+    color: #2c3e50;
+    display: inline-block;
+    width: 100px;
+    font-size: 20px;
+    padding-right: 15px;
+    float: left;
+}
+
+#frmInformativo input {
+    display: inline-block;
+    width: 420px;
+    height: 30px;
+    outline-color: #f9aa33;
+}
+
+#frmInformativo input,textarea::placeholder { 
+    font-size: 13px;
+    padding: 5px;
+ }
+
+#frmInformativo textarea {
+    resize: none;
+    width: 428px;
+    height: 175px;
+    font-family: 'Raleway', sans-serif;
+    outline-color: #f9aa33;
+}
+
+.documento {
+    margin-bottom: 40px;
+}
+
+#btnExaminar{
+    color: #f9aa33;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+figure {
+    display: inline-block;
+}
+
+#documentPreview {
+    width: 100px;
+    height: 100px;
+    margin-bottom: -4px;
+}
+
+#btnExaminar {
+    font-size: 20px;
+}
+
+#btnGuardar {
+    display: block;
+    margin-top: 45px;
+    padding: 14px 0px;
+    margin-top: 20px;
+    margin: 0 auto;
+    min-width: 155px;
+    background: #f9aa33;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+}
+
+#btnGuardar:hover {
+    background: #f9bf33;
+}
